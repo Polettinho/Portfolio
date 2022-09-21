@@ -1,9 +1,14 @@
 import React from 'react'
+import { useState } from 'react'
 import "./Sidebar.css"
 
 const Sidebar = () => {
+
+  const [toggle, showMenu] = useState(false);
+
   return (
-    <aside className='aside'>
+    <>
+      <aside className={toggle ? "aside show-menu" : "aside"}>
       <a href="#home" className="nav__log">
           <h1 className='P'>P<span className='dot'>.</span></h1>
       </a>
@@ -20,12 +25,6 @@ const Sidebar = () => {
             <li className="nav__item">
               <a href="#about" className="nav__link">
                 <i className="icon-user-following"></i>
-              </a>
-            </li>
-
-            <li className="nav__item">
-              <a href="#services" className="nav__link">
-                <i className="icon-briefcase"></i>
               </a>
             </li>
 
@@ -62,6 +61,11 @@ const Sidebar = () => {
         </span>
       </div>
     </aside>
+
+    <div className={toggle ? "nav__toggle nav__toggle-open" : "nav__toggle"} onClick={() => showMenu(!toggle)}>
+      <i className="icon-menu"></i>
+    </div>
+    </>
   )
 }
 

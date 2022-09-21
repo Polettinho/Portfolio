@@ -2,6 +2,7 @@ import React from 'react'
 import "./About.css"
 import Image from '../../assets/avatar-2.svg'
 import AboutBox from './AboutBox'
+import Curriculo from '../../assets/curriculo.pdf'
 
 const About = () => {
   return (
@@ -16,7 +17,7 @@ const About = () => {
             <p className="about__description">
               Olá, me chamo Eduardo Poletto, sou um desenvolvedor júnior. Estou criando experiência fazendo alguns estudos e cópias de WebApps, e esse aqui é o meu portfólio digital.
             </p>
-            <a href="" className="btn">Baixar CV</a>
+            <a href={Curriculo} className="btn" download='Curriculo Poletto'>Baixar CV</a>
           </div>
 
           <div className="about__skills grid">

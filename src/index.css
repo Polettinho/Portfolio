@@ -19,7 +19,7 @@
     --h3-font-size: 1.25rem; 
     --normal-font-size: 1rem; 
     --small-font-size: 0.875rem; 
-    --smaller-font-size: 0.815rem;
+    --smaller-font-size: 0.813rem;
 
     /*========= Font Weight ========== */
     --font-medium: 500;
@@ -143,6 +143,19 @@ img{
     font-weight: var(--font-bold);
 }
 
+.btn__small{
+    padding: 0.2rem 1rem;
+    line-height: 1;
+    border-radius: 1.875rem;
+    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+    border: 1px solid transparent;
+    color: #fff;
+    display: inline-block;
+    background-color: var(--first-color);
+    font-weight: var(--font-medium);
+}
+
+
 @keyframes button-push{
     50%{
         transform: scale(0.8);
@@ -153,6 +166,21 @@ img{
     }
 }
 
-.btn:hover{
+.btn:hover,
+.btn__small:hover{
     animation: button-push 0.5s linear 1;
 }
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: transparent;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--first-color);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid var(--body-color);  /* creates padding around scroll thumb */
+  }
