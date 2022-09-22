@@ -58,20 +58,11 @@
     display: inline-block;
     background-color: var(--first-color);
     font-weight: var(--font-bold);
-}
-
-@keyframes button-push{
-    50%{
-        transform: scale(0.8);
-    }
-
-    100%{
-        transform: scale(1);
-    }
+    transition: .3s;
 }
 
 .btn-contact:hover{
-    animation: button-push 0.5s linear 1;
+    transform: scale(0.96);
 }
 
 @media screen and (max-width: 1024px){

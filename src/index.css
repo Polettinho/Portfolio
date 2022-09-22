@@ -141,6 +141,7 @@ img{
     display: inline-block;
     background-color: var(--first-color);
     font-weight: var(--font-bold);
+    transition: 0.2s;
 }
 
 .btn__small{
@@ -153,22 +154,12 @@ img{
     display: inline-block;
     background-color: var(--first-color);
     font-weight: var(--font-medium);
-}
-
-
-@keyframes button-push{
-    50%{
-        transform: scale(0.8);
-    }
-
-    100%{
-        transform: scale(1);
-    }
+    transition: .2s;
 }
 
 .btn:hover,
 .btn__small:hover{
-    animation: button-push 0.5s linear 1;
+    transform: scale(0.96); 
 }
 
 body::-webkit-scrollbar {

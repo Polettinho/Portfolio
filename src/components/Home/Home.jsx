@@ -5,17 +5,15 @@ import HeaderSocials from './HeaderSocials'
 import ScrollDown from './ScrollDown'
 
 const Home = () => {
+
   return (
     <section className="home container" id="home">
       <div className="intro">
-        <img src={Me} alt="" className="honme__img" />
+        <img src={Me} alt="" className="home__img" />
         <h1 className="home__name">Eduardo Poletto</h1>
         <span className="home__education">Desenvolvedor JavaScript</span>
-
         <HeaderSocials />
-
         <a href="#contact" className="btn">Fale comigo</a>
-
         <ScrollDown />
       </div>
     </section>
