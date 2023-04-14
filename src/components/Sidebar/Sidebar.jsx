@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import "./Sidebar.css"
+import DarkMode from '../DarkMode/DarkMode';
 
 const Sidebar = () => {
 
@@ -44,6 +45,10 @@ const Sidebar = () => {
               <a href="#contact" className="nav__link">
                 <i className="icon-bubble"></i>
               </a>
+            </li>
+
+            <li className="nav__item">
+                <DarkMode />
             </li>
           </ul>
         </div>

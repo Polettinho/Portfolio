@@ -31,6 +31,17 @@
 
     /*========= Border Radius ========== */
     --border-radius: 20px;
+
+    /*========= NEW DARK THEME ========= */
+    --body-background: white;
+    --body-color: black;
+    --link-color: navy;
+}
+
+[data-theme="dark"] {
+    --body-background: #282c34;
+    --body-color: white;
+    --link-color: cyan;
 }
 
 /* Responsive typography */

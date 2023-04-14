@@ -15,16 +15,16 @@ const About = () => {
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__description">
-              Olá, me chamo Eduardo Poletto, sou um desenvolvedor júnior. Estou criando experiência fazendo alguns estudos e cópias de WebApps, e esse aqui é o meu portfólio digital.
+              Olá, me chamo Eduardo Poletto, sou um desenvolvedor front-end. Estou criando experiência fazendo alguns estudos e cópias de WebApps, e esse aqui é o meu portfólio digital.
             </p>
-            <a href={Curriculo} className="btn" download='Curriculo Poletto'>Baixar CV</a>
+            <a href={Curriculo} className="btn" download='Curriculo Poletto'>Baixar currículo</a>
           </div>
 
           <div className="about__skills grid">
             <div className="skills_data">
               <div className="skills__titles">
-                <h3 className="skills__name">Front-end</h3>
-                <span className="skills__number">55%</span>
+                <h4 className="skills__name">Front-end</h4>
+                <h4 className="skills__number">55%</h4>
               </div>
               <div className="skills__bar">
                 <span className="skills__percentage frontend"></span>
@@ -33,8 +33,8 @@ const About = () => {
 
             <div className="skills_data">
               <div className="skills__titles">
-                <h3 className="skills__name">Back-end</h3>
-                <span className="skills__number">15%</span>
+                <h4 className="skills__name">Back-end</h4>
+                <h4 className="skills__number">15%</h4>
               </div>
               <div className="skills__bar">
                 <span className="skills__percentage backend"></span>
@@ -43,8 +43,8 @@ const About = () => {
 
             <div className="skills_data">
               <div className="skills__titles">
-                <h3 className="skills__name">Design UI/UX</h3>
-                <span className="skills__number">30%</span>
+                <h4 className="skills__name">Design UI/UX</h4>
+                <h4 className="skills__number">30%</h4>
               </div>
               <div className="skills__bar">
                 <span className="skills__percentage design"></span>

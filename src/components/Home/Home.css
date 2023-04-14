@@ -21,8 +21,13 @@ a{
     text-align: center;
 }
 
+.intro h1, h2, h3, i, span, a{
+    color: var(--body-color);
+}
+
 .home__img{
     margin-bottom: 1.5rem;
+    max-width: 540px;
 }
 
 .home__name{

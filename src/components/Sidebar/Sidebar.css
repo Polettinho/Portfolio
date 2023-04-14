@@ -2,7 +2,7 @@
     position: fixed;
     left: 0;
     top: 0;
-    background: var(--body-color);
+    background: hsl(258, 60%, 98%);
     border-right: 1px solid rgba(0, 0, 0, 0.05);
     padding: 2.5rem;
     width: 110px;
@@ -22,9 +22,18 @@
 
 .nav__link{
     font-size: 1.5rem;
-    color: var(--title-color);
+    /* color: var(--title-color); */
     font-weight: var(--font-bold);
     transform: 0.3s;
+}
+
+.icon-home,
+.icon-user-following,
+.icon-graduation,
+.icon-layers,
+.icon-bubble,
+.copyright{
+    color: black;
 }
 
 .nav__link:hover{
@@ -55,12 +64,12 @@
     cursor: pointer;
     height: 40px;
     width: 45px;
-    background-color: var(--body-color);
+    background-color: transparent;
     display: none;
     justify-content: center;
     align-items: center;
     z-index: 1;
-    transition: .3s;
+    transition: .5s;
 }
 
 @media screen and (max-width: 1024px){
