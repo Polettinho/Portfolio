@@ -54,7 +54,6 @@ const About = () => {
                 <span className="skills__percentage design"></span>
               </div>
             </div>
-            <span>→ Baseado em uma avaliação pessoal ←</span>
           </div>
         </div>
       </div>
