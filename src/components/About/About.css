@@ -65,17 +65,17 @@
 }
 
 .frontend{
-    width: 55%;
+    width: 66%;
     background-color: rgb(255, 209, 92);
 }
 
 .backend{
-    width: 15%;
+    width: 33%;
     background-color: rgb(255, 75, 96);
 }
 
 .design{
-    width: 30%;
+    width: 95%;
     background-color: rgb(108, 108, 299);
 }
 
