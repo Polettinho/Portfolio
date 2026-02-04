@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.690759aa.css",
+    "main.js": "/Portfolio/static/js/main.2166cdc4.js",
+    "static/media/curriculo.pdf": "/Portfolio/static/media/curriculo.4428ae75dcaa2a69fd90.pdf",
+    "static/media/avatar-2.svg": "/Portfolio/static/media/avatar-2.dbaf15ff9b5d68a39d1b24521fb12640.svg",
+    "static/media/avatar-1.svg": "/Portfolio/static/media/avatar-1.e18c937d0a33154687422e5da407f480.svg",
+    "static/media/instagram.svg": "/Portfolio/static/media/instagram.22bda4c250235f5d99c5c75e2537147e.svg",
+    "static/media/whatsapp.svg": "/Portfolio/static/media/whatsapp.503375c0b6769605ad0905ca7c67b969.svg",
+    "static/media/tiktok.svg": "/Portfolio/static/media/tiktok.3fa7b3e1e7d1adfc705564d5a4b25bdd.svg",
+    "static/media/youtube.svg": "/Portfolio/static/media/youtube.9dce52e409158b9b52fb8d048ec295b6.svg",
+    "static/media/dots-bg.svg": "/Portfolio/static/media/dots-bg.aa8289c51cd678b8cd47.svg",
+    "static/media/Sun.svg": "/Portfolio/static/media/Sun.aef8f60b836976321d24aa4163dbfb7f.svg",
+    "static/media/tesla.svg": "/Portfolio/static/media/tesla.329d9f433ef2bedd96aea4ed41291df3.svg",
+    "static/media/netflix.svg": "/Portfolio/static/media/netflix.d1d5803e03e6e50440e7f20a06912a0c.svg",
+    "static/media/Moon.svg": "/Portfolio/static/media/Moon.af99a536ce1d19f741275b8554beaa63.svg",
+    "index.html": "/Portfolio/index.html",
+    "main.690759aa.css.map": "/Portfolio/static/css/main.690759aa.css.map",
+    "main.2166cdc4.js.map": "/Portfolio/static/js/main.2166cdc4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.690759aa.css",
+    "static/js/main.2166cdc4.js"
+  ]
+}
