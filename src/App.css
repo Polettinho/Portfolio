@@ -1,0 +1,11 @@
+.main{
+  margin-left: 100px;
+  background-color: var(--body-background);
+  transition: .5s all;
+}
+
+@media screen and (max-width: 1024px){
+  .main{
+    margin-left: 0;
+  }
+}
